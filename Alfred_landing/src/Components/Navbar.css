@@ -105,11 +105,19 @@
 }
 
 @media(max-width:800px){
+    .navbar-main-container{
+        padding: 20px 25px;
+    }
     .navbar-left div ul{
         display: none;
     }
     .navbar-left div{
         justify-content: flex-start;
+    }
+    .navbar-right button{
+        position: absolute;
+        right: 0px;
+        
     }
 }
 
