@@ -1,0 +1,114 @@
+:root{
+    --primary-color: #010851;
+    --secondary:#9A7AF1;
+    --tartiary:#707070;
+    --pink: #EE9AE5;    
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*-------------------------------------Estilos del contenedor general del navbar-------------*/
+.navbar-main-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px
+}
+
+/*---------------------------Estilos del contenedor Izquierdo del Navbar-----------------------*/
+
+.navbar-left div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 550px;
+}
+
+.navbar-left div .navbar-left--options{
+    font-size: 1.7rem;
+}
+
+.navbar-left .navbar-logo{
+    display: flex;
+    align-items: center;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+    color: var(--primary-color);
+}
+
+.navbar-left .navbar-logo img{
+    width: 80px;
+}
+
+.navbar-left .navbar-logo{
+    text-decoration: none;
+}
+
+.navbar-left div ul{
+    padding-left: 10px;
+}
+
+.navbar-left div ul a{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+/*---------------------------Estilos del contenedor derecho del Navbar-----------------------*/
+
+.navbar-right{
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.navbar-right a{
+    font-size: 1.7rem;
+    color: var(--primary-color);
+    font-weight: 400;
+    position: absolute;
+    left: 20px;
+    text-decoration: none;
+}
+
+.navbar-right button{
+    position: absolute;
+    right: 60px;
+    background-color: var(--secondary);
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.4rem;
+    border: none;
+    min-width: 80px
+}
+
+.navbar-right button:hover{
+    color: white;
+    cursor: pointer;
+    background-color: var(--pink);
+}
+
+
+@media(max-width:943px){
+    .navbar-right a{
+        display: none;
+    }
+}
+
+@media(max-width:800px){
+    .navbar-left div ul{
+        display: none;
+    }
+    .navbar-left div{
+        justify-content: flex-start;
+    }
+}
+
