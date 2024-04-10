@@ -120,11 +120,25 @@
 
 }
 
-.navbar-toogle-container .navbar-toogle-button .navbar-toogle-button--x{
+.navbar-toogle-container .navbar-toogle-button .navbar-toogle-button--x, .navbar-toogle-button--menu{
    color: var(--primary-color);
    
 }
 
+/*-------------------------------Toogle Menu---------------------------------------*/
+.toogle-menu{
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary);
+    padding: 20px 0;
+}
+
+.toogle-menu a{
+    text-decoration:  none;
+    color: var(--primary-color);
+    margin: 15px 20px;
+}
 
 
 

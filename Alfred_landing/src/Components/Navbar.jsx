@@ -53,13 +53,26 @@ function Navbar() {
                     
                     <button className='navbar-toogle-button' onClick={Toogle}>
                         {
-                            isMenuOpen ? (<FaXmark className='navbar-toogle-button--x'/>) : (<FaBars/>)
+                            isMenuOpen ? (<FaXmark className='navbar-toogle-button--x'/>) : (<FaBars navbar-toogle-button--menu/>)
                         }
                     </button>
                     
                 </section>
             </div>
         </nav>
+
+        {
+             isMenuOpen ? 
+             (
+                <div className='toogle-menu'>
+                    {
+                        navbarItems.map(({link,path}) => <a key={link} href={path} className='navbar-left--options'>{path}</a>)
+                    }
+                </div>
+             ) : (<></>)
+        }
+
+        
     </>
   )
 }
