@@ -122,7 +122,7 @@
 
 .navbar-toogle-container .navbar-toogle-button .navbar-toogle-button--x, .navbar-toogle-button--menu{
    color: var(--primary-color);
-   
+   text-decoration: none;
 }
 
 /*-------------------------------Toogle Menu---------------------------------------*/

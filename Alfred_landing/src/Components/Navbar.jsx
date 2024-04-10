@@ -53,7 +53,7 @@ function Navbar() {
                     
                     <button className='navbar-toogle-button' onClick={Toogle}>
                         {
-                            isMenuOpen ? (<FaXmark className='navbar-toogle-button--x'/>) : (<FaBars navbar-toogle-button--menu/>)
+                            isMenuOpen ? (<FaXmark className='navbar-toogle-button--x'/>) : (<FaBars className='navbar-toogle-button--menu'/>)
                         }
                     </button>
                     
