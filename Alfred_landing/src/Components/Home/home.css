@@ -79,6 +79,7 @@
         grid-template-columns: 1fr; /* Cambia a una sola columna */
         padding: 20px;
         border-bottom-right-radius: 100px;
+        margin: 0 10px;
     }
 
     .home-section-left {
