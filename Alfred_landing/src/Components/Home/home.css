@@ -1,0 +1,96 @@
+:root{
+    --primary-color: #010851;
+    --secondary:#9A7AF1;
+    --tartiary:#707070;
+    --pink: #EE9AE5;    
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*----------------------Estilos del elemento central contenedor------------------------*/
+
+.home-main-container{
+    margin: 0 40px;
+    background-image: linear-gradient(to right, var(--pink),var(--secondary));
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 200px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+/*--------------------------------Estilos de la parte Izquierda del HOME---------------------*/
+
+.home-section-left{
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    align-items: center;
+}
+
+.home-section-left h1{
+    font-size: 7rem;
+    color: white;
+}
+
+.home-section-left p{
+    font-size: 1.6rem;
+    color: white;
+}
+
+.home-section-left div .home-left-button-2{
+    margin-left: 60px;
+}
+
+.home-section-left button{
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.4rem;
+    border: none;
+    min-width: 120px;
+    min-height: 40px;
+    background-color: var(--secondary);
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/*--------------------Estilos de la derecha del Home----------------------------------------*/
+
+
+
+.home-section-right img{
+    max-width: 500px;
+    
+}
+
+
+@media (max-width: 600px) {
+    .home-main-container {
+        grid-template-columns: 1fr; /* Cambia a una sola columna */
+        padding: 20px;
+        border-bottom-right-radius: 100px;
+    }
+
+    .home-section-left {
+        grid-row-gap: 20px; /* Añade espacio entre las filas */
+        order: 2; /* Cambia el orden del grid */
+    }
+
+    .home-section-right {
+        display: none;
+    }
+    .home-section-left h1{
+        font-size: 5.5rem;
+        color: white;
+    }
+}
