@@ -2,7 +2,7 @@ import React from 'react'
 
 import Fondo_home from '../../assets/home2.svg'
 
-import '../Home/Home.css'
+import '../Home/home.css'
 
 function Home() {
   return (
@@ -11,7 +11,7 @@ function Home() {
             <div className='home-main-container'>
                 <section className='home-section-left'>
                     <h1>Practice Speaking for IELTS with AI</h1>
-                    <p> Alfred guides you through the intricacies of this exam, asking questions and providing instant feedback and suggestions on your answers, helping you expand your vocabulary, correct your grammar, and refine your pronunciation to achieve a high band score.</p>
+                    <p> Alfred guides you through the intricacies of this exam, asking questions and providing instant feedback and suggestions on your answers, helping you expand your vocabulary, correct your grammar, and refine your pronunciation to achieve a high band score</p>
                     <div>
                         <button>Get Started</button>
                         <button className='home-left-button-2'>More info</button>
