@@ -79,6 +79,8 @@
     position: absolute;
     right: 180px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-right button{
@@ -97,6 +99,36 @@
     background-color: var(--pink);
 }
 
+
+/*------------------------------Estilos del toogle button---------------------------------*/
+
+.navbar-toogle-container{
+    display: none;
+    
+}
+
+.navbar-toogle-container .navbar-toogle-button{
+    font-size: 3rem;
+    line-height: 2.8rem;
+
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+
+    
+
+}
+
+.navbar-toogle-container .navbar-toogle-button .navbar-toogle-button--x{
+   color: var(--primary-color);
+   
+}
+
+
+
+
+/*----------------------------medias Queries Responsive----------------------------------*/
 
 @media(max-width:943px){
     .navbar-right a{
@@ -117,7 +149,14 @@
     .navbar-right button{
         position: absolute;
         right: 0px;
-        
+        display: none;  
     }
+
+    .navbar-toogle-container{
+        display: block;
+        display: flex;
+        margin-right: 20px;
+    }
+
 }
 

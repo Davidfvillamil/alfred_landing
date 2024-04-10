@@ -1,13 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Logo from '../assets/3.svg'
 
 import './Navbar.css'
 
 /*--------------------Importaciones de logos------------------------------------- */
 import { GrLanguage } from "react-icons/gr";
+import { FaXmark } from "react-icons/fa6";
+import { FaBars } from "react-icons/fa";
 
 
 function Navbar() {
+
+    const[isMenuOpen, setIsMenuOpen] = useState(false)
+
+    const Toogle = () => {
+        setIsMenuOpen(!isMenuOpen)
+    }   
+
     const navbarItems = [
         {link:"Overview", path:"home"},
         {link:"feature", path:"feature"},
@@ -33,8 +42,21 @@ function Navbar() {
                     </div>
                 </section>
                 <section className='navbar-right'>
-                     <a href=""><GrLanguage/><span>Language</span></a>
+                     <a href="">
+                        <GrLanguage/>
+                        <span>Language</span>
+                     </a>
                      <button>Sign up</button>   
+                </section>
+
+                <section className='navbar-toogle-container'>
+                    
+                    <button className='navbar-toogle-button' onClick={Toogle}>
+                        {
+                            isMenuOpen ? (<FaXmark className='navbar-toogle-button--x'/>) : (<FaBars/>)
+                        }
+                    </button>
+                    
                 </section>
             </div>
         </nav>
