@@ -19,6 +19,7 @@
     width: 100%;
     padding: 20px 40px;
     width: 100%;
+    
 }
 
 /*---------------------------Estilos del contenedor Izquierdo del Navbar-----------------------*/
@@ -132,7 +133,16 @@
     flex-direction: column;
     background-color: var(--secondary);
     padding: 20px 0;
+    position: fixed; /* Fija la posición del menú desplegable */
+    top: 100px; /* Ajusta la posición superior del menú desplegable */
+    left: 0; /* Ajusta la posición izquierda del menú desplegable */
+    width: 100%; /* Ajusta el ancho del menú desplegable */
+    z-index: 999; /* Ajusta el apilamiento del menú desplegable */
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
+
+
 
 .toogle-menu a{
     text-decoration:  none;
