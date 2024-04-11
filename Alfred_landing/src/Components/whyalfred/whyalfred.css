@@ -72,3 +72,40 @@
     color: var(--primary-color);
     max-width: 90%;
 }
+
+/*----------------------Los Medias Queries---------------------------------------------------*/
+
+@media(max-width:600px){
+    .whyalfred-main-container{
+        margin: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        height: auto; /* Ajusta la altura automáticamente */
+        align-items: center; /
+    }
+    .whyalfred-main-text{
+        width: 100%;
+        margin-bottom: 170px;
+    }
+    .whyalfred-main-text h2{
+        font-size: 3.5rem;
+        width: 100%;
+    }
+    .whyalfred-main-text p{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .whyalfred-box-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .whyalfred-box-container .whyalfred-card{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .whyalfred-box-container .whyalfred-card:nth-child(2) {
+        align-self: center;
+        width: 100%;
+    }
+}
