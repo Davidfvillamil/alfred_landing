@@ -15,7 +15,7 @@
 /*----------------------Estilos del elemento central contenedor------------------------*/
 
 .home-main-container{
-    margin: 0 40px;
+    margin: 0 40px 40px 40px;
     background-image: linear-gradient(to right, var(--pink),var(--secondary));
     padding: 20px;
     border-top-left-radius: 10px;

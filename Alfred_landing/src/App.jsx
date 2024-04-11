@@ -4,6 +4,7 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import Home from './Components/Home/Home'
+import Whyalfred from './Components/whyalfred/Whyalfred'
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
     <>
       <Navbar></Navbar>
       <Home></Home>
+      <Whyalfred></Whyalfred>
     </>
   )
 }
