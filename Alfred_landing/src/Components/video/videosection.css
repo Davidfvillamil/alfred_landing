@@ -1,0 +1,84 @@
+:root{
+    --primary-color: #010851;
+    --secondary:#9A7AF1;
+    --tartiary:#707070;
+    --pink: #EE9AE5;    
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*----------------------------------Estilos del contenedor principal--------------------------*/
+.videosection-main-container{
+    margin: 0 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
+    
+}
+
+/*-----------------------------------Estilos del videos------------------------------------*/
+
+.videosection-main-container .videosection-video-container{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.videosection-main-container .videosection-video-container iframe{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/*---------------------------------Estilos de la parte derecha---------------------------*/
+
+.videosection-main-container .videosection-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.videosection-main-container .videosection-text-container h2{
+    font-size: 2rem;
+    color: var(--primary-color);
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+
+.videosection-main-container .videosection-text-container p{
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    max-width: 100%;
+}
+
+.videosection-main-container .videosection-text-container button{
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.4rem;
+    border: none;
+    min-width: 120px;
+    min-height: 40px;
+    background-color: var(--secondary);
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: 600;
+    width: 20%;
+}
+
+@media(max-width:600px){
+    .videosection-main-container{
+        margin: 0 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .videosection-main-container .videosection-video-container{
+        margin-bottom: 20px; /* Ajusta el ancho del contenedor del video al 100% */
+    }
+    .videosection-main-container .videosection-text-container p{
+        margin-bottom: 20px;
+    }
+}
