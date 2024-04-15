@@ -15,15 +15,20 @@
 /*--------------------------Estilos del contenedor principal------------------------------------*/
 .pricing-main-section{
     margin: 80px 0;
-    height: 100vh;  
+    height: auto; /* Cambia la altura a auto para que se ajuste al contenido */
+    display: flex; /* Usa flexbox */
+    justify-content: center; /* C*/
+    
 }
 
 .pricing-main-container{
     
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Agrega espacio entre las columnas */
     margin: 0 40px;
-    height: 400px;
+    width: 100%; /* Asegura que el contenedor ocupe el ancho completo */
+    max-width: 1200px; /* Opcional: define un ancho máximo */
 }
 
 /*---------------------------------Estilos del titulo del pricing------------------------------*/
@@ -160,27 +165,36 @@
 }
 
 @media(max-width:600px){
+    .pricing-main-section{
+        margin: 50px 10px;
+        height: 100%;
+    } 
     .pricing-main-container{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(4,1fr);
+        grid-template-rows: 1fr 2fr 2.2fr 2fr;
+        gap: 10px; /* Reducir el espacio entre elementos en vista móvil */
     }
     .info-container{
-    
         grid-column: 1 / 2;
         justify-self: center;
-        margin-bottom: 60px;
+        margin-bottom: 30px; /* Reducir el margen inferior en vista móvil */
     }
+   
     .Princing{
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-        height: 400px;
-        max-height: 75%;
+        height: 500px;
+        max-height: 85%;
         max-width: 250px;
         border-radius: 10px;
         padding: 10px;
         justify-self: center;
         height: 580px;
         min-width: 350px;
-        align-self: start;
+        align-self: flex-start; /* Cambia align-self a flex-start */
+    }
+    .Princing .pricing-button button{
+        margin-top: 35px;
+        
     }
 }

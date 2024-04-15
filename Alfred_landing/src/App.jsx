@@ -7,6 +7,7 @@ import Home from './Components/Home/Home'
 import Whyalfred from './Components/whyalfred/Whyalfred'
 import Videosection from './Components/videosection/videosection'
 import Pricing from './Components/pricing/pricing'
+import Footer from './Components/footer/footer'
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
       <Whyalfred></Whyalfred>
       <Videosection></Videosection>
       <Pricing></Pricing>
+      <Footer/>
     </>
   )
 }
