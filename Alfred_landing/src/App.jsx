@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Home from './Components/Home/Home'
 import Whyalfred from './Components/whyalfred/Whyalfred'
 import Videosection from './Components/videosection/videosection'
+import Pricing from './Components/pricing/pricing'
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
       <Home></Home>
       <Whyalfred></Whyalfred>
       <Videosection></Videosection>
+      <Pricing></Pricing>
     </>
   )
 }
