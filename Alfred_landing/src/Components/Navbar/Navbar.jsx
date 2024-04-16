@@ -18,10 +18,10 @@ function Navbar() {
     }   
 
     const navbarItems = [
-        {link:"Overview", path:"home"},
-        {link:"feature", path:"feature"},
-        {link:"About", path:"about"},
-        {link:"Pricing", path:"pricing"}
+        {link:"Home", path:"home"},
+        {link:"why Alfred", path:"whyalfred"},
+        {link:"Pricing", path:"pricing"},
+        {link:"Contact", path:"Contact"}
     ]
 
   return (
@@ -64,11 +64,20 @@ function Navbar() {
         {
              isMenuOpen ? 
              (
-                <div className='toogle-menu'>
-                    {
-                        navbarItems.map(({link,path}) => <a key={link} href={path} className='navbar-left--options'>{path}</a>)
-                    }
-                </div>
+                 <div className='toogle-menu'>
+                     {
+                         navbarItems.map(({link, path}) => (
+                             <a 
+                                 key={link} 
+                                 href={"#" + path} 
+                                 className='navbar-left--options' 
+                                 onClick={() => setIsMenuOpen(false)} // Agrega el manejador de eventos onClick
+                             >
+                                 {link}
+                             </a>
+                         ))
+                     }
+                 </div>
              ) : (<></>)
         }
 

@@ -7,7 +7,7 @@ import '../whyalfred/whyalfred.css'
 
 function Whyalfred() {
   return (
-   <section>
+   <section id='whyalfred'>
         <div className='whyalfred-main-container'>
             <section className='whyalfred-main-text'>
                 <div>

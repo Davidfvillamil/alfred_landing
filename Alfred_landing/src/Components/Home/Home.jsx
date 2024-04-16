@@ -7,7 +7,7 @@ import '../Home/home.css'
 function Home() {
   return (
     <>
-        <section>
+        <section id='home'>
             <div className='home-main-container'>
                 <section className='home-section-left'>
                     <h1>Practice Speaking for IELTS with AI</h1>

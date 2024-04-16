@@ -7,7 +7,7 @@ import { FaXmark } from "react-icons/fa6";
 function Pricing() {
   return (
     <>
-        <section className='pricing-main-section'>
+        <section className='pricing-main-section' id='pricing'>
             <div className='pricing-main-container'>
                 <div className='info-container'>
                     <h1>Pricing</h1>
