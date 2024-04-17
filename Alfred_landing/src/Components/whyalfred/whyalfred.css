@@ -15,7 +15,7 @@
 
 /*------------------------Estilos del contenedor principal---------------------------------*/
 .whyalfred-main-container{
-    margin: 100px 40px;
+    margin: 150px 40px;
     display: grid;
     grid-template-columns: 1fr 3fr;
     height: 60vh;
@@ -24,6 +24,7 @@
 /*-----------------------------------------Estilos de la parte izquierda----------------------*/
 .whyalfred-main-text {
     position: relative;
+
 }
 
 .whyalfred-main-text h2{
@@ -59,18 +60,27 @@
 
 .whyalfred-box-container .whyalfred-card{
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-    height: 400px;
+    height: 550px;
     max-height: 75%;
     max-width: 250px;
     border-radius: 10px;
     padding: 10px;
 }
 
+.whyalfred-box-container .whyalfred-card img{
+   max-width: 100%;
+   border-radius: 8px;
+   max-height: auto ;
+}
+
+
+
 .whyalfred-box-container .whyalfred-card h4{
-    margin-top: 30px;
-    font-size: 1.5rem;
+    margin-top: 20px;
+    font-size: 2rem;
     color: var(--primary-color);
-    max-width: 90%;
+    max-width: 100%;
+    text-align: center;
 }
 
 /*----------------------Los Medias Queries---------------------------------------------------*/
@@ -86,14 +96,15 @@
     .whyalfred-main-text{
         width: 100%;
         margin-bottom: 170px;
+        text-align: center;
     }
     .whyalfred-main-text h2{
         font-size: 3.5rem;
-        width: 100%;
+        width: 95vw;
     }
     .whyalfred-main-text p{
         font-size: 1.5rem;
-        width: 100%;
+        width: 95vw;
     }
     .whyalfred-box-container{
         display: flex;
