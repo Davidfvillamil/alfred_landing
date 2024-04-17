@@ -39,7 +39,7 @@ function Whyalfred() {
                     <div>
                         <img src={Pronuntiation} alt="" />
                     </div>
-                    <h4>Expand your vocabulary and Correct your grammar</h4>
+                    <h4>Correct grammar and Expand vocabulary</h4>
                 </div>
             </section>
         </div>
