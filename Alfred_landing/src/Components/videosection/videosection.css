@@ -81,4 +81,19 @@
     .videosection-main-container .videosection-text-container p{
         margin-bottom: 30px;
     }
+    .videosection-main-container .videosection-text-container h2{
+        font-size: 2rem;
+        color: var(--primary-color);
+        max-width: 95%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .videosection-main-container .videosection-text-container p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .videosection-text-container--button{
+        display: flex;
+        justify-content: center;
+    }
 }
