@@ -95,3 +95,12 @@
         color: white;
     }
 }
+
+@media(max-width:360px){
+    .home-section-left div{
+        display: flex;
+    }
+    .home-section-left div button:nth-child(2){
+        background-color: var(--pink);
+    }
+}
