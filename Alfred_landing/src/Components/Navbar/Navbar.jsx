@@ -19,7 +19,7 @@ function Navbar() {
 
     const navbarItems = [
         {link:"Home", path:"home"},
-        {link:"why Alfred", path:"whyalfred"},
+        {link:"why Alfred?", path:"whyalfred"},
         {link:"Pricing", path:"pricing"},
         {link:"Contact", path:"Contact"}
     ]
@@ -36,7 +36,7 @@ function Navbar() {
                         </a>
                         <ul>
                             {
-                                navbarItems.map(({link,path}) => <a key={link} href={path} className='navbar-left--options'>{path}</a>)
+                                navbarItems.map(({link,path}) => <a key={link} href={path} className='navbar-left--options'>{link}</a>)
                             }
                         </ul>
                     </div>
@@ -44,7 +44,7 @@ function Navbar() {
                 <section className='navbar-right'>
                      <a href="">
                         <GrLanguage/>
-                        <span>Language</span>
+                        <span className=''>Language</span>
                      </a>
                      <button>Sign up</button>   
                 </section>
