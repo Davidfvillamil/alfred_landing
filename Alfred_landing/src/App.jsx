@@ -8,6 +8,7 @@ import Whyalfred from './Components/whyalfred/Whyalfred'
 import Videosection from './Components/videosection/videosection'
 import Pricing from './Components/pricing/pricing'
 import Footer from './Components/footer/footer'
+import Form from './Components/form/form'
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
       <Whyalfred></Whyalfred>
       <Videosection></Videosection>
       <Pricing></Pricing>
+      <Form></Form>
       <Footer/>
     </>
   )
