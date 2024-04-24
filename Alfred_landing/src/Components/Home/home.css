@@ -80,6 +80,7 @@
         padding: 20px;
         border-bottom-right-radius: 100px;
         margin: 0 10px;
+        background-image: linear-gradient(to bottom,var(--secondary),var(--pink));
     }
 
     .home-section-left {
@@ -96,11 +97,13 @@
     }
 }
 
-@media(max-width:360px){
+@media(max-width:600px){
     .home-section-left div{
         display: flex;
     }
-    .home-section-left div button:nth-child(2){
-        background-color: var(--pink);
+    .home-section-left div button{
+        background-color: var(--secondary);
     }
+    
+    
 }

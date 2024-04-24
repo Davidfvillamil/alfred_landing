@@ -28,7 +28,7 @@
 }
 
 .whyalfred-main-text h2{
-    font-size: 2.5rem;
+    font-size: 4rem;
     color: var(--primary-color);
 }
 
@@ -95,16 +95,18 @@
     }
     .whyalfred-main-text{
         width: 100%;
-        margin-bottom: 170px;
+        margin-bottom: 250px;
         text-align: center;
     }
     .whyalfred-main-text h2{
         font-size: 3.5rem;
         width: 95vw;
+        margin-bottom: 10px;
     }
     .whyalfred-main-text p{
         font-size: 1.5rem;
-        width: 95vw;
+        width: 90vw;
+        
     }
     .whyalfred-box-container{
         display: flex;

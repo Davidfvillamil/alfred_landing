@@ -13,7 +13,7 @@ function Home() {
                     <h1>Perfect Your IELTS Speaking with AI</h1>
                     <p>Master IELTS Speaking with AI. Soon, Alfred will assist you in perfecting your IELTS speaking skills. Get ready to receive instant feedback and personalized suggestions on grammar, pronunciation, and vocabulary, guiding you towards achieving your desired band score with confidence and precision</p>
                     {/* Este es un comentario en React 
-                    <p> Master IELTS Speaking with AI. Alfred assists you in perfecting your IELTS speaking skills. Receive instant feedback and personalized suggestions on grammar, pronunciation, and vocabulary, guiding you towards achieving your desired band score with confidence and precision.</p>
+                    <p> Master IELTS Speaking with AI. Alfred assists you in perfecting your IELTS speaking skills. Receive instant feedback and personalized suggestions on grammar, pronunciation, and vocabulary, guiding you towards achieving your desired band score with confidence and precision</p>
                     */}
                     <div>
                         <button>Join the wait list</button>
