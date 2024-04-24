@@ -11,14 +11,14 @@ function Pricing() {
             <div className='pricing-main-container'>
                 <div className='info-container'>
                     <h1>Pricing</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, provident ut hic velit assumenda ea, architecto recusandae voluptatibus autem facilis saepe optio aliquid omnis, maxime similique perferendis. Aspernatur, nam ducimus!</p>
+                    <p>Start your English fluency journey today with one of our three pricing options: Basic, Pro, or Premium. Each plan offers tailored features to enhance your speaking skills with Alfred's guidance. Choose your plan and let's get started!</p>
                     <div>
                         <button>Student</button>
                         <button>Institution</button>
                     </div>
                 </div>
                 <div className='Princing'>
-                    <h2>Plataforma</h2>
+                    <h2>Basic</h2>
                     <p className='perks-parrafo'>Lorem ipsum dolor sit amet consectetur, adipisicing </p>
                     <p className='perks-price'>$50<span>/month</span></p>
                     <div className='perks-container'>
@@ -45,7 +45,7 @@ function Pricing() {
                 </div>
 
                 <div className='Princing'>
-                    <h2>Plataforma</h2>
+                    <h2>Pro</h2>
                     <p className='perks-parrafo'>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
                     <p className='perks-price'>$50<span>/month</span></p>
                     <div className='perks-container'>
@@ -71,7 +71,7 @@ function Pricing() {
                     </div>
                 </div>
                 <div className='Princing'>
-                    <h2>Plataforma</h2>
+                    <h2>Premium</h2>
                     <p className='perks-parrafo'>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
                     <p className='perks-price'>$50<span>/month</span></p>
                     <div className='perks-container'>

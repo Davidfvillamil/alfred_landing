@@ -16,7 +16,7 @@ function Whyalfred() {
                 <div>
                     <h2>Why Alfred?</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique quibusdam, quam accusamus non qui quia a veniamdaw
+                    With Alfred, you can boost your English speaking skills through practice sessions. Alfred's got your back with personalized feedback tailored to your responses. You can check out your grammar, pronunciation, and the helpful suggestions Alfred gives you. It's like having your own personal English coach, helping you improve step by step!
                     </p>
                 </div>
             </section>

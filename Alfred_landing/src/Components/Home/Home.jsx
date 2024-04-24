@@ -11,10 +11,13 @@ function Home() {
             <div className='home-main-container'>
                 <section className='home-section-left'>
                     <h1>Perfect Your IELTS Speaking with AI</h1>
-                    <p> Master IELTS Speaking with AI. Alfred, your dedicated AI companion, assists you in perfecting your IELTS speaking skills. Receive instant feedback and personalized suggestions on grammar, pronunciation, and vocabulary, guiding you towards achieving your desired band score with confidence and precision.</p>
+                    <p>Master IELTS Speaking with AI. Soon, Alfred will assist you in perfecting your IELTS speaking skills. Get ready to receive instant feedback and personalized suggestions on grammar, pronunciation, and vocabulary, guiding you towards achieving your desired band score with confidence and precision</p>
+                    {/* Este es un comentario en React 
+                    <p> Master IELTS Speaking with AI. Alfred assists you in perfecting your IELTS speaking skills. Receive instant feedback and personalized suggestions on grammar, pronunciation, and vocabulary, guiding you towards achieving your desired band score with confidence and precision.</p>
+                    */}
                     <div>
-                        <button>Get Started</button>
-                        <button className='home-left-button-2'>More info</button>
+                        <button>Join the wait list</button>
+                        <button className='home-left-button-2'>Sign Up for Updates</button>
                     </div>
                 </section>
                 <section className='home-section-right'>

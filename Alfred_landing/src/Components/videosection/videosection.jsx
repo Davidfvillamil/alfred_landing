@@ -10,12 +10,11 @@ function Videosection() {
         </section>
         <section className='videosection-text-container'>
             <div>
-                <h2>Want to check how it works?</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui consequatur rem assumenda nemo molestiae veniam, animi recusandae aut labore odit a culpa reiciendis ipsa ullam saepe beatae, voluptates sed optido.</p>
-                
+                <h2>Level Up Your Speaking Skills: Watch Alfred's Demo!</h2>
+                <p>RCurious about improving your English speaking skills? Watch our demo featuring Alfred, your personalized speaking coach! Get expert feedback and tips tailored just for you. It's your shortcut to fluent English—don't miss out!</p> 
             </div>
             <div className='videosection-text-container--button'>
-              <button>Get started</button>
+              <button>Join wait list</button>
             </div>
         </section>
     </section>
