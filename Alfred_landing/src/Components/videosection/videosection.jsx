@@ -12,7 +12,7 @@ function Videosection() {
   return (
     <section className='videosection-main-container'>
         <section className='videosection-video-container'>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VYqIeBoee9U&t=13s&ab_channel=DavidVillamil" frameborder="0" allowFullScreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/br8o7ctE-_s?si=sNf8lh2_nEl2Dp9f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
         <section className='videosection-text-container'>
             <div>
