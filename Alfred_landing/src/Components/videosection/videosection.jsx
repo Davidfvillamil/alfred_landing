@@ -17,7 +17,7 @@ function Videosection() {
         <section className='videosection-text-container'>
             <div>
                 <h2>Level Up Your Speaking Skills: Watch Alfred's Demo!</h2>
-                <p>RCurious about improving your English speaking skills? Watch our demo featuring Alfred, your personalized speaking coach! Get expert feedback and tips tailored just for you. It's your shortcut to fluent English—don't miss out!</p> 
+                <p>Curious about improving your English speaking skills? Watch our demo featuring Alfred, your personalized speaking coach! Get expert feedback and tips tailored just for you. It's your shortcut to fluent English—don't miss out!</p> 
             </div>
             <div className='videosection-text-container--button'>
               <button onClick={scrollToForm}>Join wait list!</button>

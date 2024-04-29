@@ -40,7 +40,7 @@ function Form() {
     return (
         <>
             <section className="contact container section" id="contact">
-                <h2 className="section__title">join the wait list!</h2>
+                <h2 className="section__title">Join the Waitlist!</h2>
 
                 <div className="contact__container grid">
                     <div className="contact__info">
@@ -63,7 +63,7 @@ function Form() {
                             <textarea name="message" cols="30" rows="10" className="contact__form-input" placeholder="Share with us your experience and challenges in practicing speaking." value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
                         </div>
 
-                        <input type="submit" className="btn" value='Send Message' disabled={!isFormValid} />
+                        <input type="submit" className="btn" value='Join Waitlist' disabled={!isFormValid} />
 
                         {/* Modal */}
                         {isModalOpen &&

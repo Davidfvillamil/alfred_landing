@@ -15,15 +15,15 @@ function Footer() {
               </div>
               <div className='menu-footer'>
                 <div>Menu</div>
-                <div>Home</div>
-                <div>Why Alfred</div>
-                <div>contact</div>
+                <div><a href="#home">Home</a></div>
+                <div><a href="#whyalfred">Why Alfred?</a></div>
+                <div><a href="#contact">Contact</a></div>
               </div>
               <div className='contact-footer'>
                 <div>Contacto</div>
                 <div className='contact-footer-phone'>
                   <FaPhone className='footer-phone-logo'/>
-                  Numero de telefono
+                  (+57) 320 802 8073 
                 </div>
                 <div className='contact-footer-mail'> 
                   <CgMail className='footer-mail-logo'/>  

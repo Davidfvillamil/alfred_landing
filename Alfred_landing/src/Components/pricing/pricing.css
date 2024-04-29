@@ -18,7 +18,7 @@
     height: auto; /* Cambia la altura a auto para que se ajuste al contenido */
     display: flex; /* Usa flexbox */
     justify-content: center; /* C*/
-    
+    display: none;
 }
 
 .pricing-main-container{
