@@ -70,8 +70,15 @@ function Form() {
                             <div className='modal'>
                                 <div className='overlay' onClick={closeModal}></div>
                                 <div className="modal-content">
-                                    <h2>Hello modal</h2>
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima similique soluta voluptate velit exercitationem, quam corrupti omnis magni distinctio eligendi. Cupiditate nesciunt dolorem doloremque excepturi. Dolore voluptatum nulla blanditiis nisi.</p>
+                                    <h2> Thank you for joining the waitlist!</h2>
+                                    <p>
+                                       
+                                        By joining the waitlist, you're setting yourself up for success with Alfred. Soon, you'll have the opportunity to experience Alfred firsthand and embark on your journey to IELTS preparation excellence.
+
+                                    </p>
+                                    <p>
+                                        Stay tuned! We'll be reaching out to you shortly to provide more information and guide you through the next steps. In the meantime, get ready to dive into a world of personalized learning and effective study strategies
+                                    </p>
                                     <button className='close-modal' onClick={() => setIsModalOpen(false)}>Close</button>
                                 </div>
                             </div>

@@ -24,6 +24,11 @@ function Navbar() {
         {link:"Contact", path:"Contact"}
     ]
 
+    const scrollToForm = () => {
+        const formSection = document.getElementById('contact')
+        formSection.scrollIntoView({behavior: 'smooth'})
+    }
+
   return (
     <>
         <nav>
@@ -46,7 +51,7 @@ function Navbar() {
                         <GrLanguage/>
                         <span className=''>Language</span>
                      </a>
-                     <button>Sign up</button>   
+                     <button onClick={scrollToForm}>Sign up</button>   
                 </section>
 
                 <section className='navbar-toogle-container'>

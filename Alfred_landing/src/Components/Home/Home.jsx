@@ -5,6 +5,12 @@ import Fondo_home from '../../assets/home2.svg'
 import '../Home/home.css'
 
 function Home() {
+
+    const scrollToForm = () => {
+        const formSection = document.getElementById('contact')
+        formSection.scrollIntoView({behavior: 'smooth'})
+    }
+
   return (
     <>
         <section id='home'>
@@ -16,8 +22,8 @@ function Home() {
                     <p> Master IELTS Speaking with AI. Alfred assists you in perfecting your IELTS speaking skills. Receive instant feedback and personalized suggestions on grammar, pronunciation, and vocabulary, guiding you towards achieving your desired band score with confidence and precision</p>
                     */}
                     <div>
-                        <button>Join the wait list</button>
-                        <button className='home-left-button-2'>Sign Up for Updates</button>
+                        <button onClick={scrollToForm}>Join the wait list</button>
+                        <button className='home-left-button-2' onClick={scrollToForm}>Sign Up for Updates</button>
                     </div>
                 </section>
                 <section className='home-section-right'>
